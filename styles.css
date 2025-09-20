@@ -9,6 +9,10 @@ body {
 
 img { width: 300px}
 
+main {
+    flex: 1; /* Faz o conteúdo principal crescer e empurra o footer para baixo */
+}
+
 #menu {
     font-family: "Arial", sans-serif; /* Fonte do nav */
     font-size: 18px;                  /* Tamanho do texto do nav */
@@ -19,10 +23,6 @@ img { width: 300px}
     font-size: 20px;                     /* Tamanho dos links */
     text-decoration: none;               /* Remove sublinhado */
     color: #151998;                         /* Cor do texto */
-}
-
-main {
-    flex: 1; /* Faz o conteúdo principal crescer e empurra o footer para baixo */
 }
 
 footer {
