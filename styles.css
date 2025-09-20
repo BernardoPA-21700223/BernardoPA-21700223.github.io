@@ -8,6 +8,11 @@ body{
 
 img { width: 300px}
 
+
+main {
+    flex: 1; /* Faz o conteúdo principal crescer e empurra o footer para baixo */
+}
+
 footer {
   background: #333;
   color: rgb(29, 212, 81);
@@ -15,9 +20,6 @@ footer {
   padding: 10px;
 }
 
-main {
-    flex: 1; /* Faz o conteúdo principal crescer e empurra o footer para baixo */
-}
 
 #menu {
     font-family: "Arial", sans-serif; /* Fonte do nav */
