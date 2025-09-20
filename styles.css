@@ -15,4 +15,15 @@ body{
       text-align: center;
       padding: 10px;
     }
+
+    #menu {
+    font-family: "Arial", sans-serif; /* Tipo de letra */
+    font-size: 18px;                  /* Tamanho da letra */
+    font-family: "Verdana", sans-serif; /* Tipo de letra dos links */
+    font-size: 20px;                     /* Tamanho da letra dos links */
+    text-decoration: none;               /* Remove sublinhado dos links */
+    color: #333;                         /* Cor do texto */
+}
+
+
   
