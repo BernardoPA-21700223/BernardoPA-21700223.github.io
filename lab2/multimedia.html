@@ -1,45 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="UTF-8">
-        <title>Cidade</title>
-        <style>
-            .fotografias{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                gap : 10px;
-            }
-            .fotografias img{
-                width: 150px;
-                border-radius: 20px;
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1>Sobral Monte Agraço</h1>
-        </header>
-        <main>
-            <h2>Multimedia</h2>
-            <p>A minha cidade é muito linda!!!</p>
-            
-             <section>
-                <h3>Fotografias</h3>
-                    <div class="fotografias">
-                        <img src="images/aereo.jpg" alt="Vita areria"/>
-                        <img src="images/centro.jpg" alt="Centro"/>
-                        <img src="images/chafariz.jpg" alt="Chafariz"/>
-                        <img src="images/cineTeatro.jpg" alt="Cine Teatro"/>
-                        <img src="images/igrejaQuintino.jpg" alt="Igreja de Santo Quintino"/>
-                        <img src="images/logo.png" alt="Logo"/>
-                        <img src="images/praca_pombalina.jpg" alt="Praça"/>
-                        <img src="images/praça.jpg" alt="Praça"/>
-                        <img src="images/terminalRodoviario.jpg" alt="Terminal Rodoviario"/>
-                    </div>
-             </section>
- 
-        </main>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cidade</title>
+    <style>
+        .fotografias {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .fotografias img {
+            width: 150px;
+            border-radius: 20px;
+        }
+
+        .poema {
+            font-family: "Georgia", serif;
+            font-size: 1.5rem;
+            line-height: 2.2rem;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .poema p:nth-child(1) {
+            color: darkgreen;
+            font-weight: bold;
+        }
+
+        .poema p:nth-child(2) {
+            color: saddlebrown;
+            font-style: italic;
+        }
+
+        .poema p:nth-child(3) {
+            color: darkred;
+            text-decoration: underline;
+        }
+
+        .poema p:nth-child(4) {
+            color: navy;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sobral Monte Agraço</h1>
+    </header>
+    <main>
+        <h2>Multimedia</h2>
+        <p>A minha cidade é muito linda!!!</p>
+        <p>
+            <a href="#fotografias">Fotografias</a>
+            <a href="#videos">Videos</a>
+            <a href="#pemas">Poemas</a>
+        </p> 
+
+
+        <section>
+            <h3 id="fotografias">Fotografias</h3>
+            <div class="fotografias">
+                <img src="images/aereo.jpg" alt="Vita areria" />
+                <img src="images/centro.jpg" alt="Centro" />
+                <img src="images/chafariz.jpg" alt="Chafariz" />
+                <img src="images/cineTeatro.jpg" alt="Cine Teatro" />
+                <img src="images/igrejaQuintino.jpg" alt="Igreja de Santo Quintino" />
+                <img src="images/logo.png" alt="Logo" />
+                <img src="images/praca_pombalina.jpg" alt="Praça" />
+                <img src="images/praça.jpg" alt="Praça" />
+                <img src="images/terminalRodoviario.jpg" alt="Terminal Rodoviario" />
+            </div>
+        </section>
+
+        <section>
+            <h3 id="videos">Videos</h3>
+            <iframe width="1022" height="575" src="https://www.youtube.com/embed/q56npBP9veg"
+                title="// Rally de Lisboa | Sobral de Monte Agraço" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h3 id="poesia">Poesia</h3>
+            <div class="poema">
+                <p>Sobral de Monte Agraço,</p>
+                <p>Terra firme de valor,</p>
+                <p>Entre vinhas e abraços</p>
+                <p>Guarda histórias com fervor.</p>
+            </div>
+
+        </section>
+
+    </main>
     <nav>
         <a href="index.html">Home</a>
         <a href="local.html">Localização</a>
@@ -49,8 +105,9 @@
 
 
 
-        <footer>
-            <p>DIW 2025</p>
-        </footer>
-    </body>
+    <footer>
+        <p>DIW 2025</p>
+    </footer>
+</body>
+
 </html>
