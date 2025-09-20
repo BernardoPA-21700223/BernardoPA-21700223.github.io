@@ -4,25 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Cidade</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            text-align: center;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 6px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+    </style>
+
 </head>
 
 <body>
     <header>
         <h1>Sobral Monte Agraço</h1>
     </header>
-    <main>
-        <h2>Oeste</h2>
-        <p>A minha cidade é muito linda!!!</p>
-    </main>
     <nav>
         <a href="index.html">Home</a>
         <a href="local.html">Localização</a>
         <a href="multimedia.html">Multimédia</a>
         <a href="info.html">Informação</a>
     </nav>
-    
+
+    <main>
+        <h2>Informações</h2>
+        <p>A minha cidade é muito linda!!!</p>
+        <table>
+            <tr>
+                <th rowspan="2">Demografia</th>
+                <td>População</td>
+                <td>10.156 hab (2011)</td>
+            </tr>
+            <tr>
+                <td>Densidade populacional</td>
+                <td>~195 hab/km²</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Geografia</th>
+                <td>Área</td>
+                <td>52,1 km²</td>
+            </tr>
+            <tr>
+                <td>Região</td>
+                <td>Oeste / Lisboa</td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td colspan="2">Portugal</td>
+            </tr>
+            <tr>
+                <th>Website</th>
+                <td colspan="2"><a href="https://www.cm-sobral.pt" target="_blank">www.cm-sobral.pt</a></td>
+            </tr>
+        </table>
+
+
+
+    </main>
+
+
     <footer>
-        <a href="https://www.ulusofona.pt/" target="_blank" >Universidade Lusófona &#169; 2025</a>
+        <a href="https://www.ulusofona.pt/" target="_blank">Universidade Lusófona &#169; 2025</a>
     </footer>
 
 </body>
