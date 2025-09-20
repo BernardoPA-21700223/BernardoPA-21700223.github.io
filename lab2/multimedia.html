@@ -21,7 +21,7 @@
             font-family: "Georgia", serif;
             font-size: 1.5rem;
             line-height: 2.2rem;
-            text-align: center;
+            text-align: left;
             margin-top: 50px;
         }
 
@@ -44,6 +44,13 @@
             color: navy;
             letter-spacing: 2px;
         }
+
+        .videos {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
     </style>
 </head>
 
@@ -58,7 +65,7 @@
             <a href="#fotografias">Fotografias</a>
             <a href="#videos">Videos</a>
             <a href="#pemas">Poemas</a>
-        </p> 
+        </p>
 
 
         <section>
@@ -78,10 +85,11 @@
 
         <section>
             <h3 id="videos">Videos</h3>
-            <iframe width="1022" height="575" src="https://www.youtube.com/embed/q56npBP9veg"
+            <div class="videos" <iframe width="1022" height="575" src="https://www.youtube.com/embed/q56npBP9veg"
                 title="// Rally de Lisboa | Sobral de Monte Agraço" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
 
         <section>
@@ -92,10 +100,10 @@
                 <p>Entre vinhas e abraços</p>
                 <p>Guarda histórias com fervor.</p>
             </div>
-
         </section>
 
     </main>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="local.html">Localização</a>
@@ -103,11 +111,10 @@
         <a href="info.html">Informação</a>
     </nav>
 
-
-
     <footer>
-        <p>DIW 2025</p>
+        <a href="https://www.ulusofona.pt/" target="_blank" >Universidade Lusófona &#169; 2025</a>
     </footer>
+
 </body>
 
 </html>
