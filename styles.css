@@ -5,12 +5,18 @@ body{
     font-family: Arial, sans-serif;
     
 }
+
 img { width: 300px}
+
 footer {
   background: #333;
   color: rgb(29, 212, 81);
   text-align: center;
   padding: 10px;
+}
+
+main {
+    flex: 1; /* Faz o conteúdo principal crescer e empurra o footer para baixo */
 }
 
 #menu {
@@ -22,7 +28,7 @@ footer {
     font-family: "Verdana", sans-serif; /* Fonte dos links */
     font-size: 20px;                     /* Tamanho dos links */
     text-decoration: none;               /* Remove sublinhado */
-    color: #333;                         /* Cor do texto */
+    color: #151998;                         /* Cor do texto */
 }
 
 
