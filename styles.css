@@ -1,27 +1,27 @@
 body{
+    display: flex;
     background-color: #b3b3b3;
     margin: 0;
     font-family: Arial, sans-serif;
-    img { width: 300px}
+    
+}
+img { width: 300px}
+footer {
+  background: #333;
+  color: rgb(29, 212, 81);
+  text-align: center;
+  padding: 10px;
 }
 
-    footer {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
-    }
+#menu {
+    font-family: "Arial", sans-serif; /* Fonte do nav */
+    font-size: 18px;                  /* Tamanho do texto do nav */
+}
 
-    #menu {
-    font-family: "Arial", sans-serif; /* Tipo de letra */
-    font-size: 18px;                  /* Tamanho da letra */
-    font-family: "Verdana", sans-serif; /* Tipo de letra dos links */
-    font-size: 20px;                     /* Tamanho da letra dos links */
-    text-decoration: none;               /* Remove sublinhado dos links */
+#menu a {
+    font-family: "Verdana", sans-serif; /* Fonte dos links */
+    font-size: 20px;                     /* Tamanho dos links */
+    text-decoration: none;               /* Remove sublinhado */
     color: #333;                         /* Cor do texto */
 }
 
