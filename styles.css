@@ -1,4 +1,18 @@
 body{
     background-color: #b3b3b3;
+    margin: 0;
+    font-family: Arial, sans-serif;
     img { width: 300px}
 }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  
