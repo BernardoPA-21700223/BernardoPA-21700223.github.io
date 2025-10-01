@@ -1,0 +1,66 @@
+body { 
+  background: green; 
+  margin: 0;
+}
+
+/* container do nav */
+nav {
+  display: flex;
+  justify-content: center; /* centraliza todo o bloco .itens */
+  padding: 20px;
+}
+
+.itens {
+  display: flex;           
+  flex-direction: column;  /* empilha os <ul> em colunas */
+  gap: 20px;               /* espaço entre as listas */
+  width: 100%;             /* ocupa toda a largura */
+  max-width: 800px;        /* largura máxima (opcional) */
+}
+
+.itens ul {
+  display: flex;
+  flex-direction: row;      /* itens lado a lado */
+  list-style: none;        
+  padding: 15px;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.itens ul li {
+  margin: 0 5px;
+}
+
+.itens ul li a {
+  padding: 10px 20px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px lightgrey;
+  display: inline-block;
+}
+
+/* 1ª linha - centralizado */
+.itens ul:nth-child(1) {
+  background: lightblue;
+  justify-content: center;
+}
+
+/* 2ª linha - alinhado à direita */
+.itens ul:nth-child(2) {
+  background: lightgreen;
+  justify-content: flex-end;
+}
+
+/* 3ª linha - espaço entre */
+.itens ul:nth-child(3) {
+  background: lightpink;
+  justify-content: space-between;
+}
+
+/* 4ª linha - espaçamento uniforme */
+.itens ul:nth-child(4) {
+  background: rgb(11, 11, 11);
+  justify-content: space-evenly;
+}
