@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column; /* empilha verticalmente */
     min-height: 100vh;      /* garante que o body ocupe toda a altura da página */
-    background-color: #b3b3b3;
+    background-color: #5fa03c;
     margin: 0;
     font-family: Arial, sans-serif;
 }

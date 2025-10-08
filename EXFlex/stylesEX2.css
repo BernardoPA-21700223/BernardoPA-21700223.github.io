@@ -1,0 +1,47 @@
+body {
+  background: #001F3F;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "nav footer footer";
+  grid-template-columns: 200px 1fr 200px; /* nav fixo à esquerda, aside fixo à direita */
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  
+}
+
+header, nav, main, aside, footer {
+  display: flex;
+  justify-content: center;  /* alinha horizontal */
+  align-items: center;      /* alinha vertical */
+  border: 7px solid blue;
+ 
+}
+
+header {
+  grid-area: header;
+  padding: 60px 20px;
+}
+
+nav {
+  grid-area: nav;
+  padding: 20px;
+}
+
+main {
+  grid-area: main;
+  padding: 20px;
+}
+
+aside {
+  padding: 20px;
+}
+
+footer {
+  grid-area: footer;
+  padding: 15px;
+}
