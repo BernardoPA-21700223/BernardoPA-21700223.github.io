@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column; /* empilha verticalmente */
+    min-height: 100vh;      /* garante que o body ocupe toda a altura da página */
+    background-color: #5fa03c;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+}
+
+img { width: 300px}
+
+main {
+    flex: 1; /* Faz o conteúdo principal crescer e empurra o footer para baixo */
+
+}
+
+#menu {
+    font-family: "Arial", sans-serif; /* Fonte do nav */
+    font-size: 18px;                  /* Tamanho do texto do nav */
+}
+
+#menu a {
+    font-family: "Verdana", sans-serif; /* Fonte dos links */
+    font-size: 20px;                     /* Tamanho dos links */
+    text-decoration: none;               /* Remove sublinhado */
+    color: #151998;                         /* Cor do texto */
+}
+
+footer {
+  background: #333;
+  color: rgb(29, 212, 81);
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+  

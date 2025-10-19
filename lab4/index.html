@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bernardo Amorim 21700223</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- HTML já carregado! -->
+    <script src="scripts/main.js"></script>
+
+    <script>
+        let counter =0;
+        
+
+
+        function saudar(){
+            counter++;
+            alert('ja clicaste ' + counter + ' vezes')
+        }
+       
+
+        function alterar(){
+            const frase = document.querySelector('h1');
+            
+            frase.textContent ='texto alterado';
+            frase.style.color='green';
+            frase.style.backgroundColor='purple';
+            frase.innerHTML='Goodbye!';
+        }   
+
+
+    </script>
+</head>
+
+<body>
+    <main>
+        <h1>Javascript</h1>
+        <h2>Enventos</h2>
+
+        <h3>Rato</h3>
+        <button onclick="saudar()">Saudar</button>
+        <button ondblclick="alterar()">onDblClick</button>
+        <button onmouseover="alert('ola')">onMouseOver</button>
+        <button onmouseout="alert('ola')">onMouseOut</button>
+        <button onmousemove="alert('ola')">onMouseMove</button>      
+        
+        <h3>Teclado</h3>
+            onKey...   
+
+        <h3>Janela</h3>
+            onLoad, onscroll, onRiseze 
+
+        <h3>Formulario</h3>
+            onChange, onSubmit
+
+
+            <p>
+                elemento.innerHTML='<div>novo elemento</div>';
+            </p>
+            
+    </main>
+</body>
+
+</html>
